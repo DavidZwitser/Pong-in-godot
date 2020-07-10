@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Fonts/FontStyle.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scenes/Start.gd" type="Script" id=2]
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="Start" type="Label" parent="."]
+margin_left = 392.0
+margin_top = 297.393
+margin_right = 642.0
+margin_bottom = 347.393
+rect_pivot_offset = Vector2( 160, 25 )
+custom_fonts/font = ExtResource( 1 )
+text = "Start"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Click to" type="Label" parent="."]
+margin_left = 328.0
+margin_top = 249.393
+margin_right = 728.0
+margin_bottom = 299.393
+rect_scale = Vector2( 0.383943, 0.415719 )
+rect_pivot_offset = Vector2( 160, 25 )
+custom_fonts/font = ExtResource( 1 )
+text = "Click to"
+__meta__ = {
+"_edit_use_anchors_": false
+}
